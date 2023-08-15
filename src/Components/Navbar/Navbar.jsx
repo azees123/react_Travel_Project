@@ -20,7 +20,7 @@ const Navbar = () => {
       <header className="header flex">
         
         <div className="logoDiv">
-          <a href="#" className="logo flex">
+          <a href="#top" className="logo flex">
             <h1><MdOutlineTravelExplore className="icon"/> Travel.</h1>
           </a>
         </div>
@@ -28,35 +28,35 @@ const Navbar = () => {
         <div className={active}>
           <ul className="navLists flex">
             <li className="navItem">
-              <a href="#" className="navLinks">Home</a>
+              <a href="#home" className="navLinks">Home</a>
             </li>
 
             <li className="navItem">
-            <a href="#" className="navLinks">Packages</a>
+            <a href="#packages" className="navLinks">Packages</a>
             </li>
 
             <li className="navItem">
-            <a href="#" className="navLinks">Shop</a>
+            <a href="#shop" className="navLinks">Shop</a>
             </li>
 
             <li className="navItem">
-            <a href="#" className="navLinks">About</a>
+            <a href="#about" className="navLinks">About</a>
             </li>
 
             <li className="navItem">
-            <a href="#" className="navLinks">Pages</a>
+            <a href="#pages" className="navLinks">Pages</a>
             </li>
 
             <li className="navItem">
-            <a href="#" className="navLinks">News</a>
+            <a href="#news" className="navLinks">News</a>
             </li>
 
             <li className="navItem">
-            <a href="#" className="navLinks">Contact</a>
+            <a href="#contact" className="navLinks">Contact</a>
             </li>
 
             <button className="btn">
-              <a href="#">BOOK NOW</a>
+              <a href="#book_now">BOOK NOW</a>
             </button>
           </ul>
 
